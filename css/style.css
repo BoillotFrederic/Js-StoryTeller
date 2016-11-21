@@ -1,0 +1,76 @@
+@font-face
+{
+  font-family:gothic;
+  src:url('../fonts/Perry Gothic.ttf');
+}
+html, body
+{
+  height:100%;
+  overflow:hidden;
+}
+body
+{
+  font-family:gothic;
+  background-color:black;
+  background-image:url('../imgs/fire.png');
+  background-size:800px 500px;
+  background-repeat:no-repeat;
+  background-position:bottom;
+}
+h1
+{
+  color:white;
+  text-align:center;
+  font-size:2.5em;
+  text-shadow:0 0 20px red;
+}
+a
+{
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  color:white;
+}
+#content
+{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+form
+{
+  display:none;
+  font-family:sans-serif;
+  background-color:rgba(255, 255, 255, 0.5);
+  margin-left:10px;
+  padding:20px;
+  font-size:0.8em;
+}
+input
+{
+  display:block;
+  width:100%;
+  height:20px;
+  border:1px solid black;
+  background-color:white;
+}
+p
+{
+  background-color:rgba(255, 255, 255, 0.5);;
+  width:500px;
+  padding:20px;
+  font-size:0.9em;
+}
+span
+{
+  text-decoration:underline;
+  font-style:italic;
+  display:inline-block;
+  padding:2px;
+  border:1px solid transparent;
+}
+span:hover
+{
+  background-color:rgba(0, 100, 100, 0.5);
+  border:1px solid black;
+}
